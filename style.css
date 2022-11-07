@@ -1,0 +1,179 @@
+body{
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', sans;
+color: #40514E;
+}
+h1{ color: #66BFBF;
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+font-size:3.625rem; 
+}
+.top-div-p{
+color: #66BFBF;
+font-family:'Montserrat',sans-serf;
+font-size: 1.5rem;
+font-weight:normal;
+}
+.top-div{
+
+background-color: #E4F9F5;
+position: relative;
+padding-top: 100px;
+height: 700px;
+}
+.laptop{
+height: 200px;
+width: 200px;
+position: relative;
+left: 300px;
+}
+.book{
+position: absolute;
+left:100px;
+bottom: 200px;
+top: 475px;
+}
+.m{
+width: 400px;
+height: 250px;
+}
+
+.profile-pic{
+border-radius:100%;
+width:25%;
+}
+.middle-container{
+margin: 100px 0;
+}
+
+hr{
+border: dotted #EAF6F6 6px;  
+border-bottom: none;
+width: 10%;
+margin: 100px auto;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.contact{
+margin: 50px auto;
+}
+.bottom-container{
+background-color: #66BFBF;
+padding: 50px 0 20px 0;
+margin: auto,auto,auto,0;
+}
+a{
+color: #11999E;
+font-family: 'Montserrat',sans-serf;
+margin: 10px 20px;
+text-decoration: none;
+
+}
+a:hover{
+color: #EAF6F6;
+}
+.s{
+color: #11999E;
+font-family: 'Montserrat',sans-serf;
+margin: 10px 20px;
+text-decoration: none;
+}
+.s:hover,.MNIT:hover{
+color:blue;
+}
+h2{
+}
+h3{
+}
+p{
+line-hight: 2;
+}
+.copyright{
+color: #EAF6F6;
+padding: 20px 0px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 411.025px; /* Should be removed. Only for demonstration */
+  margin: 10px 0px 100px 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: ;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
